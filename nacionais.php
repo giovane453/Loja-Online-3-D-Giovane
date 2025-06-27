@@ -11,10 +11,10 @@
         <div class="logo">Retrô's<span>Futbol</span></div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Times Nacionais</a></li>
-                <li><a href="#">Times Internacionais</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="nacionais.php">Times Nacionais</a></li>
+                <li><a href="internacionais.php">Times Internacionais</a></li>
+                <li><a href="contato.php">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -42,10 +42,10 @@
             
             <!-- Produto 2 -->
             <div class="produto-card">
-                <img src="assets/barcelona9.jpg" alt="Camisa Barcelona 2009" class="produto-img">
+                <img src="assets/corin.jpeg" alt="Camisa Corinthians Nike 2012 Retrô" class="produto-img">
                 <div class="produto-info">
-                    <div class="produto-time">Barcelona</div>
-                    <div class="produto-nome">Camisa Barcelona Home 2009/10 Nike Retrô Azul/Vermelha</div>
+                    <div class="produto-time">Corinthians</div>
+                    <div class="produto-nome">Camisa Corinthians Nike 2012 Branca Retrô</div>
                     <div class="produto-preco">R$ 199,90</div>
                     <button class="btn-comprar">Comprar</button>
                 </div>
@@ -53,10 +53,10 @@
             
             <!-- Produto 3 -->
             <div class="produto-card">
-                <img src="assets/fiorentina.jpg" alt="Camisa Fiorentina" class="produto-img">
+                <img src="assets/flumi.jpg" alt="Camisa Fluminense" class="produto-img">
                 <div class="produto-info">
-                    <div class="produto-time">Fiorentina</div>
-                    <div class="produto-nome">Camisa Fiorentina Home 1998/99 Fila Retrô Masculina Roxa/Branca</div>
+                    <div class="produto-time">Fluminense</div>
+                    <div class="produto-nome">Camisa Fluminense Adidas Home Retrô 2008/09 Grená Verde </div>
                     <div class="produto-preco">R$ 199,90</div>
                     <button class="btn-comprar">Comprar</button>
                 </div>
@@ -64,10 +64,10 @@
             
             <!-- Produto 4 -->
             <div class="produto-card">
-                <img src="assets/cr7.jpg" alt="Camisa Manchester 2008" class="produto-img">
+                <img src="assets/saopaulo.webp" alt="CAMISA RETRÔ SÃO PAULO 2007-2008" class="produto-img">
                 <div class="produto-info">
-                    <div class="produto-time">Manchester United</div>
-                    <div class="produto-nome">Camisa Manchester United 2007/2008 Nike Retrô Vermelha</div>
+                    <div class="produto-time">São Paulo</div>
+                    <div class="produto-nome">CAMISA RETRÔ SÃO PAULO Home 2007/08</div>
                     <div class="produto-preco">R$ 199,90</div>
                     <button class="btn-comprar">Comprar</button>
                 </div>
@@ -75,68 +75,16 @@
             
       <!-- Produto 5 -->
           <div class="produto-card">
-            <img src="assets/2005.jpg" alt="Camisa Arsenal 2005" class="produto-img">
-            <div class="produto-info">
-                <div class="produto-time">Arseall</div>
-                <div class="produto-nome">Camisa Arsenal Home 2005/2006-Nike Retrô Masculina-Vermelho/Dourada</div>
-                <div class="produto-preco">R$ 199,90</div>
-                <button class="btn-comprar">Comprar</button>
-            </div>
-        </div>
-        
-        <!-- Produto 6 -->
-        <div class="produto-card">
-            <img src="assets/milan.jpg" alt="Camisa Milan 2006" class="produto-img">
-            <div class="produto-info">
-                <div class="produto-time">Milan</div>
-                <div class="produto-nome">Camisa Milan Away 2006/2007- Adidas retrô Masculina-Branca/Vermelha</div>
-                <div class="produto-preco">R$ 199,90</div>
-                <button class="btn-comprar">Comprar</button>
-            </div>
-        </div>
-        
-        <!-- Produto 7 -->
-        <div class="produto-card">
-            <img src="assets/flamengo.jpg" alt="Camisa Flamengo 1981" class="produto-img">
+            <img src="assets/flam.jpg" alt="Camisa Flamengo" class="produto-img">
             <div class="produto-info">
                 <div class="produto-time">Flamengo</div>
-                <div class="produto-nome">Camisa Flamengo Home 1981 Adidas Retrô Rubro-Negra</div>
-                <div class="produto-preco">R$ 189,90</div>
+                <div class="produto-nome">Camisa Flamengo Away 2008/2009 Retrô Masculina Nike Branca</div>
+                <div class="produto-preco">R$ 199,90</div>
                 <button class="btn-comprar">Comprar</button>
             </div>
         </div>
         
-        <!-- Produto 8 -->
-        <div class="produto-card">
-            <img src="assets/milan.jpg" alt="Camisa Milan 1994" class="produto-img">
-            <div class="produto-info">
-                <div class="produto-time">Milan</div>
-                <div class="produto-nome">Camisa Milan Home 1993/94 Lotto Retrô Listrada</div>
-                <div class="produto-preco">R$ 239,90</div>
-                <button class="btn-comprar">Comprar</button>
-            </div>
-        </div>
-        
-        <!-- Produto 9 -->
-        <div class="produto-card">
-            <img src="assets/corinthians.jpg" alt="Camisa Corinthians 1990" class="produto-img">
-            <div class="produto-info">
-                <div class="produto-time">Corinthians</div>
-                <div class="produto-nome">Camisa Corinthians Home 1990 Puma Retrô Branca</div>
-                <div class="produto-preco">R$ 179,90</div>
-                <button class="btn-comprar">Comprar</button>
-            </div>
-        </div>
-        
-        <!-- Produto 10 -->
-        <div class="produto-card">
-            <img src="assets/argentina.jpg" alt="Camisa Argentina 1986" class="produto-img">
-            <div class="produto-info">
-                <div class="produto-time">Argentina</div>
-                <div class="produto-nome">Camisa Argentina Home 1986 Le Coq Sportif Retrô Azul Claro</div>
-                <div class="produto-preco">R$ 259,90</div>
-                <button class="btn-comprar">Comprar</button>
-            </div>
+    
         </div>
     </div>
 </section>
