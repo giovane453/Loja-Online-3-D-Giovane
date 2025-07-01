@@ -8,13 +8,13 @@
 </head>
 <body>
     <header>
-        <div class="logo">Retrô's<span>Futbol</span></div>
+        <div class="logo">Retrô's<span>Futebol</span></div>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="nacionais.html">Times Nacionais</a></li>
-                <li><a href="internacionais.html">Times Internacionais</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="nacionais.php">Times Nacionais</a></li>
+                <li><a href="internacionais.php">Times Internacionais</a></li>
+                <li><a href="contato.php">Contato</a></li>
             </ul>
         </nav>
     </header>
