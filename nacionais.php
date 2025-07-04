@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Retrô's<span>Futbol</span></div>
+<header>
+        <div class="logo">Retrô's<span>Futebol</span></div>
         <nav>
             <ul>
                 <li><a href="home.php">Home</a></li>
@@ -17,17 +17,20 @@
                 <li><a href="contato.php">Contato</a></li>
             </ul>
         </nav>
+        <div class="carrinho">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
     </header>
     
     <section class="banner">
         <div class="banner-content">
             <h1>Camisas mais vendidas</h1>
-            <p>As melhores marcas com os melhores preços</p>
+            <p>As melhores marcas com os melhores preços Ficam aqui</p>
         </div>
     </section>
     
     <section class="produtos">
-        <h2 class="section-title">Destaques</h2>
+        <h2 class="section-title">Nacionais</h2>
         <div class="produtos-grid">
             <!-- Produto 1 -->
             <div class="produto-card">

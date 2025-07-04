@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compre camisas retrô de times nacionais e internacionais. Envio para todo Brasil!">
     <title>Retrô's - Camisas de Times Oficiais</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -17,13 +20,16 @@
                 <li><a href="contato.php">Contato</a></li>
             </ul>
         </nav>
+        <div class="carrinho">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </div>
     </header>
-    
     <section class="banner">
         <div class="banner-content">
             <h1>Camisas mais vendidas</h1>
-            <p>As melhores marcas com os melhores preços</p>
+            <p>As melhores marcas com os melhores preços Ficam aqui</p>
         </div>
+    </section>
     </section>
     
     <section class="produtos">
@@ -73,58 +79,52 @@
                 </div>
             </div>
 
-                        <!-- Produto 5 -->
-                        <div class="produto-card">
-                            <img src="assets/milan.jpg"Camisa Milan Away 2006/2007- Adidas retrô Masculina-Branca/Vermelha class="produto-img">
-                            <div class="produto-info">
-                                <div class="produto-time">AC Milan</div>
-                                <div class="produto-nome">Camisa Milan Away 2006/2007- Adidas retrô Masculina-Branca/Vermelha</div>
-                                <div class="produto-preco">R$ 199,90</div>
-                                <button class="btn-comprar">Comprar</button>
-                            </div>
-                        </div>
+            <!-- Produto 5 -->
+            <div class="produto-card">
+                <img src="assets/milan.jpg" alt="Camisa Milan Away 2006/2007 Adidas retrô Masculina Branca/Vermelha" class="produto-img">
+                <div class="produto-info">
+                    <div class="produto-time">AC Milan</div>
+                    <div class="produto-nome">Camisa Milan Away 2006/2007 Adidas retrô Masculina Branca/Vermelha</div>
+                    <div class="produto-preco">R$ 199,90</div>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+        
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Política de trocas</a></li>
+                    <li><a href="#">Formas de pagamento</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
             
-      <!-- Fechando as tags que estavam abertas -->
-    </div>
-</div>
-</section>
-
-<footer>
-<div class="footer-container">
-    <div class="footer-links">
-        <h3>Links Úteis</h3>
-        <ul>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Política de trocas</a></li>
-            <li><a href="#">Formas de pagamento</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </div>
-    
-    <div class="footer-info">
-        <h3>Informações</h3>
-        <p>CNPJ: 12.345.678/0001-99</p>
-        <p>Endereço: Rua dos Esportes, 123</p>
-        <p>Telefone: (11) 98765-4321</p>
-    </div>
-    
-    <div class="footer-social">
-        <h3>Redes Sociais</h3>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <div class="footer-info">
+                <h3>Informações</h3>
+                <p>CNPJ: 12.345.678/0001-99</p>
+                <p>Endereço: Rua dos Esportes, 123</p>
+                <p>Telefone: (11) 98765-4321</p>
+            </div>
+            
+            <div class="footer-social">
+                <h3>Redes Sociais</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="footer-copyright">
-    <p>&copy; 2025 Retrô's Futbol - Todos os direitos reservados</p>
-</div>
-</footer>
-
-<!-- Adicione isso no head para os ícones -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <div class="footer-copyright">
+            <p>&copy; 2025 Retrô's Futbol - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
